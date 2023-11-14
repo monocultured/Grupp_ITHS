@@ -557,7 +557,7 @@ body {
   height: 300px;
 }
 
-.section1 {
+.section1, img {
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -565,13 +565,13 @@ body {
   margin-top: 3%;
 }
 
-.contact-layout {
+.contact-layout, img {
   display: flex;
   gap: 20px;
   margin-top: 20px;
 }
 
-.contact-layout article {
+.contact-layout article, img {
   display: flex;
   flex-direction: column;
   align-items: left;
