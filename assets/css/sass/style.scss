@@ -76,7 +76,7 @@ body {
 }
 
 
-.section1, img {
+.section1 {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
@@ -84,13 +84,13 @@ body {
 	margin-top: 3%;
   }
   
-.contact-layout, img {
+.contact-layout, {
 	display: flex;
 	gap: 20px;
 	margin-top: 20px;
   }
   
-.contact-layout article, img {
+.contact-layout article {
 	display: flex;
 	flex-direction: column;
 	align-items: left;
@@ -101,6 +101,13 @@ body {
 	height: 20px;
 	width: 20px;
 	
+}
+
+.icon-layout article {
+	display: flex;
+	width: 20px;
+	height: 20px;
+	margin-left: 10px;
 }
 
 iframe {
