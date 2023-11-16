@@ -14,7 +14,7 @@
 .faktarutor {
   display: flex;
   flex-direction: row;
-  gap: 10%;
+  gap: 20%;
 }
 
 .faktaruta {
@@ -24,7 +24,7 @@
 #ourstory {
   display: block;
   width: 90%;
-  padding: 5%;
+  padding: 3%;
 }
 
 #h3ourstory {
