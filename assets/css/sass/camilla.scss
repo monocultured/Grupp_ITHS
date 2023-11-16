@@ -1,0 +1,24 @@
+
+#WhoHeroPicture{
+    display: block;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+extend
+.faktarutor{
+    display: flex;
+flex-direction: row;
+gap: 10%;
+}
+.faktaruta{
+    display: flex;
+}
+#ourstory{
+    display:block;
+    width: 90%;
+    padding:5%;
+
+}
+#h3ourstory{
+    padding-bottom: 1rem;
+}
