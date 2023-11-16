@@ -65,6 +65,11 @@ body {
 
 /*-----Get in touch Isabelle*/
 
+.img-section {
+	margin-left: -2%;
+	margin-right: -2%;
+}
+
 .head {
 	display: flex;
 	width: 100%;
@@ -87,6 +92,9 @@ body {
 	flex: 1 1 23%;
     align-items: left;
 	gap: 5%;
+	h3 {
+		margin-bottom: 2%;
+	}
 
   }
 
@@ -101,6 +109,7 @@ body {
 	flex-direction: row !important;
 	gap: 30px;
 	align-items: flex-end;
+	justify-content: right;
 }
 
 iframe {
