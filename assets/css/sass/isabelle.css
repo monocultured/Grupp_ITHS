@@ -589,7 +589,6 @@ body {
 
 .icon {
   display: flex;
-  flex-direction: row;
 }
 
 iframe {
