@@ -29,7 +29,6 @@
 
 .meetTheTeam {
   border-top: 1px solid gray;
-  border-bottom: 1px solid gray;
   margin-top: 10px;
   padding-top: 40px;
   padding-bottom: 40px;
@@ -43,4 +42,8 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: left;
+}
+
+footer {
+  border-top: 1px solid gray;
 }
