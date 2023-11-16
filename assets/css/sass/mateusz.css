@@ -6,6 +6,10 @@
   gap: 0.5%;
 }
 
+.meetTheTeam {
+  padding-left: 107px;
+}
+
 .teamCard {
   flex: 0 0 14.9166666667%;
   margin-top: 10px;
