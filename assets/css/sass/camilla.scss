@@ -15,6 +15,9 @@
 display: flex;
 flex-direction: row;
 gap: 20%;
+margin-left: 107px;
+margin-right: 107px;
+
 }
 .faktaruta{
     display: flex;
@@ -28,6 +31,9 @@ gap: 20%;
     margin-bottom: 50px;
     margin-left: 107px;
     margin-right: 107;
+    p{
+        margin-bottom: 1%;
+    }
 
 }
 .h3ourstory{
