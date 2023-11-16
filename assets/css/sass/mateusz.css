@@ -2,7 +2,7 @@
 .teamCardContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+  justify-content: space-between;
   gap: 0.5%;
 }
 
