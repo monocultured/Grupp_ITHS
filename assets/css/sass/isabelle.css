@@ -547,11 +547,7 @@ body {
 }
 
 /*-----Get in touch Isabelle*/
-.img-section1 {
-  max-height: 30%;
-}
-
-.picture1 {
+.head {
   display: flex;
   width: 100%;
   height: 300px;
