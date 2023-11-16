@@ -15,6 +15,11 @@
   display: flex;
   flex-direction: row;
   gap: 20%;
+<<<<<<< HEAD
+=======
+  margin-left: 107px;
+  margin-right: 107px;
+>>>>>>> main
 }
 
 .faktaruta {
@@ -31,6 +36,12 @@
   margin-left: 107px;
   margin-right: 107;
 }
+<<<<<<< HEAD
+=======
+.ourstory p {
+  margin-bottom: 1%;
+}
+>>>>>>> main
 
 .h3ourstory {
   padding-bottom: 1rem;
