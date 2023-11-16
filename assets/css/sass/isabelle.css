@@ -555,8 +555,6 @@ body {
   display: flex;
   width: 100%;
   height: 300px;
-  margin-left: -2%;
-  margin-right: -2%;
 }
 
 .section1 {
@@ -572,7 +570,9 @@ body {
 .contact-layout article {
   display: flex;
   flex-direction: column;
+  flex: 1 1 23%;
   align-items: left;
+  gap: 5%;
 }
 
 .contact-layout img {
@@ -580,15 +580,11 @@ body {
   width: 20px;
 }
 
-.icon-layout article {
-  display: flex;
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-}
-
 .icon {
   display: flex;
+  flex-direction: row !important;
+  gap: 30px;
+  align-items: flex-end;
 }
 
 iframe {
