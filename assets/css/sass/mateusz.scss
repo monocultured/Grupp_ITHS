@@ -1,0 +1,28 @@
+.teamCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.teamCard {
+  flex: 0 0 calc(100% / 7 - 5px);
+  margin: 5px;
+}
+
+.teamMemberName {
+  font-weight: 800;
+  margin-bottom: -10px;
+}
+
+.teamCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+.meetTheTeam {
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-top: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
