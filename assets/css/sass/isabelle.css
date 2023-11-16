@@ -570,6 +570,9 @@ body {
   align-items: left;
   gap: 5%;
 }
+.contact-layout article h3 {
+  margin-bottom: 2%;
+}
 
 .contact-layout img {
   height: 20px;
@@ -581,6 +584,7 @@ body {
   flex-direction: row !important;
   gap: 30px;
   align-items: flex-end;
+  justify-content: right;
 }
 
 iframe {
