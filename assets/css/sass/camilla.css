@@ -11,7 +11,7 @@
   height: 300px;
 }
 
-extend .faktarutor {
+.faktarutor {
   display: flex;
   flex-direction: row;
   gap: 10%;
