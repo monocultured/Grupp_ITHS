@@ -35,3 +35,12 @@
   padding-bottom: 40px;
   margin-bottom: 50px;
 }
+
+/* Här är CSS för att lägga in förstoringsglaset i search */
+
+.searchInput {
+  background-image: url(assets/searchicon.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+}
