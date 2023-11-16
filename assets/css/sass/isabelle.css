@@ -547,6 +547,11 @@ body {
 }
 
 /*-----Get in touch Isabelle*/
+.img-section {
+  margin-left: -2%;
+  margin-right: -2%;
+}
+
 .head {
   display: flex;
   width: 100%;
