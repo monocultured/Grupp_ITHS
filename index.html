@@ -10,6 +10,23 @@
       rel="stylesheet" />
     <link rel="stylesheet" href="./assets/css/reset.css" type="text/css" />
     <link rel="stylesheet" href="./assets/css/sass/style.css" type="text/css" />
+    <!-- Import the Snowfall.js script -->
+    <script src="./assets/js/snowfall.js"></script>
+
+    <!-- Create the Snowfall instance -->
+    <script>
+      let snowfall = new Snowfall({
+        // options here
+        count: 100,
+        minRadius: 10,
+        maxRadius: 30,
+        minSpeed: 3,
+        maxSpeed: 10,
+        text: "\u2744",
+        color: "#ffffff",
+        zIndex: "1000",
+      })
+    </script>
   </head>
   <body>
     <section role="main" id="wrapper">
