@@ -602,6 +602,7 @@ iframe {
   display: block;
 }
 
+<<<<<<< Updated upstream
 .icon img {
   transition: transform 0.3s;
 }
@@ -610,4 +611,6 @@ iframe {
   transform: scale(1.2); /* Adjust the scale factor as needed */
 }
 
+=======
+>>>>>>> Stashed changes
 /*# sourceMappingURL=style.css.map */
