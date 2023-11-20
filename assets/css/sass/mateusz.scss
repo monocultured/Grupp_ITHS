@@ -1,7 +1,7 @@
 .teamCardContainer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: start;
+
   gap: 0.5%;
   // border: 5px solid blue;
 }
@@ -9,6 +9,7 @@
 .meetTheTeam {
   // border: 5px solid red;
   padding-left: 107px;
+  justify-content: space-between;
 }
 
 .teamCard {
