@@ -122,6 +122,13 @@ iframe {
 	display: block;
 }
   
+.icon img {
+	transition: transform 0.3s;
+}
+
+.icon img:hover {
+	transform: scale(1.2); /* Adjust the scale factor as needed */
+}
   
   
   
