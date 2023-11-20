@@ -1,1 +1,49 @@
-.teamCardContainer{display:flex;flex-wrap:wrap}.teamCard{flex:1 0 calc(14.2857142857% - 0px);margin:0px}.teamMemberName{font-weight:800;margin-bottom:-10px}.teamCard img{max-width:100%;height:auto}.meetTheTeam{border-top:1px solid gray;border-bottom:1px solid gray;margin-top:10px;padding-top:40px;padding-bottom:40px;margin-bottom:50px}
+@charset "UTF-8";
+.teamCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5%;
+}
+
+.meetTheTeam {
+  padding-left: 107px;
+  justify-content: space-between;
+}
+
+.teamCard {
+  flex: 0 0 14.9166666667%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.teamMemberName {
+  font-weight: 800;
+  margin-bottom: -10px;
+}
+
+.teamCard img {
+  max-width: 100%;
+  height: auto;
+}
+
+.meetTheTeam {
+  border-top: 1px solid gray;
+  margin-top: 10px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 50px;
+}
+
+/* Här är CSS för att lägga in förstoringsglaset i search */
+.searchInput {
+  background-image: url(assets/searchicon.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left;
+}
+
+footer {
+  border-top: 1px solid gray;
+}
+
+/*# sourceMappingURL=mateusz.css.map */

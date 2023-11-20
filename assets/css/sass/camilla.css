@@ -2,25 +2,42 @@
   display: block;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  margin-left: -10%;
+  margin-right: -10%;
+}
+#WhoHeroPicture img {
+  display: flex;
+  width: 100%;
+  height: 300px;
 }
 
-extend .faktarutor {
+.faktarutor {
   display: flex;
   flex-direction: row;
-  gap: 10%;
+  gap: 20%;
+  margin-left: 107px;
+  margin-right: 107px;
 }
 
 .faktaruta {
   display: flex;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-#ourstory {
+.ourstory {
   display: block;
   width: 90%;
-  padding: 5%;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: 107px;
+  margin-right: 107;
+}
+.ourstory p {
+  margin-bottom: 1%;
 }
 
-#h3ourstory {
+.h3ourstory {
   padding-bottom: 1rem;
 }
 

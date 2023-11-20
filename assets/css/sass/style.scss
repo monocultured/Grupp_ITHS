@@ -65,11 +65,12 @@ body {
 
 /*-----Get in touch Isabelle*/
 
-.img-section1 {
-	max-height: 30%;
+.img-section {
+	margin-left: -10%;
+	margin-right: -10%;
 }
 
-.picture1 {
+.head {
 	display: flex;
 	width: 100%;
 	height: 300px;
@@ -79,11 +80,11 @@ body {
     margin-top: 3%;
   }
   
-.contact-layout, {
+.contact-layout {
     display: flex;
     gap: 20px;
     margin-top: 3%;
-  }
+}
   
 .contact-layout article {
     display: flex;
@@ -91,6 +92,9 @@ body {
 	flex: 1 1 23%;
     align-items: left;
 	gap: 5%;
+	h3 {
+		margin-bottom: 2%;
+	}
 
   }
 
@@ -105,6 +109,7 @@ body {
 	flex-direction: row !important;
 	gap: 30px;
 	align-items: flex-end;
+	justify-content: right;
 }
 
 iframe {
